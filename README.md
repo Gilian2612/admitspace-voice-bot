@@ -69,7 +69,7 @@ Mándale el `index.html` modificado a Zepur. El token `zepur2025` ya está inclu
 ## Seguridad
 
 El WebSocket valida el token antes de aceptar la conexión.
-Cualquier cliente sin `?token=zepur2025` recibe cierre inmediato (code 1008).
+Cualquier cliente sin tokenvalue recibe cierre inmediato (code 1008).
 
 Para producción: cambiar el token, agregar HTTPS propio, limitar CORS.
 
